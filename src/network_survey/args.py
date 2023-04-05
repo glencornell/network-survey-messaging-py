@@ -21,7 +21,7 @@ class Args:
         self.device_id=os.getenv("DEVICE_ID")
         self.device_name=os.getenv("DEVICE_NAME")
         self.device_model=os.getenv("DEVICE_MODEL")
-        self.protocol_version='JATF-0.9.0' # This should require a code change
+        self.protocol_version='0.9.0' # This should require a code change
         self.survey_name=os.getenv("SURVEY_NAME")
         self.parser = argparse.ArgumentParser(
             formatter_class=argparse.ArgumentDefaultsHelpFormatter,
